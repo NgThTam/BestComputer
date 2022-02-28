@@ -1,0 +1,48 @@
+/*start scroll top*/
+html {
+	scroll-behavior: smooth;
+}
+.scroll-top {
+	z-index: 99999;
+	position: fixed; 
+	right: 30px;
+	bottom: 60px;
+	background-color: #29abe2;
+	opacity: 0;
+	pointer-events: none;
+	transition: all .4s;
+}
+.scroll-top:hover {
+	opacity: .9 !important;
+}
+.scroll-top.active {
+	bottom: 32px;
+	pointer-events: auto;
+	opacity: .6;
+	border-radius: 5%;
+}
+.scroll-top > i {
+	font-weight: bold;
+	color: white;
+}
+/*end scroll top*/
+/*start scroll bottom*/
+.nav-header.active {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	transition: all .4s;
+	opacity: .8;
+	background: #212529;
+	width: 100%;
+	padding: 0 13.5%;
+	z-index: 1001;
+}
+.theme-back {
+	z-index: 999 !important;
+}
+.color-header {
+	color: white !important;
+}
+/*end scroll bottom*/

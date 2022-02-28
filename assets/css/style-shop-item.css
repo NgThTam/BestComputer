@@ -1,0 +1,349 @@
+ /*<!-- start slider -->*/
+a {
+	text-decoration: none !important;
+}
+.current {
+	color: rgb(41, 171, 226) !important;
+}
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+	.top-header-my-self {
+		background-color: rgb(53, 53, 74);
+	}
+	.my-right-top-header {
+		justify-content: center;
+	}
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.my-right-top-header {
+		justify-content: flex-end;
+	}
+}
+.loader {
+	position: fixed;
+	z-index: 999999;
+	background: rgb(227, 238, 239);
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header a, .header {
+	color: white !important;
+}
+.my-right-top-header .list-item a i:hover {
+	color: rgb(41, 171, 226);
+}
+.top-h {
+	z-index: 1001;
+	width: 100%;
+}
+
+
+.navbar-nav .nav-item .nav-link{
+	border-bottom: 4px solid transparent;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+	border-bottom-color: rgb(41, 171, 226);
+}
+
+.navbar-nav .nav-item .dropdown-menu .dropdown-item {
+	border-right: 4px solid transparent;
+}
+
+.navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+	border-right-color: rgb(41, 171, 226);
+}
+.navbar-nav .nav-item .dropdown-menu .dropdown-item span:hover {
+	color: rgb(41, 171, 226) !important;
+}
+
+
+/*start slider */
+
+.bg-blog {
+	background-image: url('../images/blog.png');
+	width: 100%;
+	height: 220px;
+	/*background-repeat: no-repeat;*/
+}
+.theme-back {
+	background-color: rgb(53, 53, 74);
+	opacity: 0.7;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	top: 0;
+	position: absolute;
+}
+/*end slider */
+
+
+/*start shop item*/
+.bottom-nav {
+	border-bottom: 0px !important;
+}
+.bottom-nav > .nav-link {
+	border: 0px !important;
+}
+.review-pro span:nth-child(even) {
+	cursor: pointer !important;
+}
+.review-pro span:nth-child(even):hover {
+	color: rgb(41, 171, 226) !important;
+}
+.start-pro i {
+	color: rgb(255, 204, 0);
+}
+
+/*start product counter*/
+.product-count {
+	border: 1px solid rgba(0,0,0,.125);
+}
+.product-count:hover {
+	border-color: rgb(41, 171, 226);
+}
+.product-count a {
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+}
+.button-count {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  color: rgb(53, 53, 74);
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 190%;
+}
+.button-count:hover {
+	color: rgb(41, 171, 226);
+}
+.button-count:focus {
+	outline: 0px !important;
+}
+.button-count:active {
+  background-color: transparent;
+}
+.number-product {
+  display: inline-block;
+  width: 46px;
+  font-size: 135%;
+  text-align: center;
+  border-width: 0px !important;
+  outline: none;
+}
+:disabled {
+  background-color: transparent;
+}
+
+/*end product counter*/
+.btn-view-buy a {
+	border-radius: 0px !important;
+	font-size: 90%;
+}
+.second {
+	background-color: rgb(41, 171, 226);
+	color: white;
+}
+.second:hover {
+	background-color: rgb(53, 53, 74);
+}
+.categories {
+	cursor: pointer;
+}
+.categories:hover {
+	color: rgb(41, 171, 226) !important;
+}
+.tab-head {
+	border-bottom: 1px solid #666666 !important;
+}
+.tab-head .nav-link{
+	border: 0px !important;
+	border-bottom: 3px solid transparent;
+	font-weight: bold;
+}
+.tab-head .nav-link:hover {
+	color: rgb(41, 171, 226)!important;
+}
+.tab-head .nav-link.active {
+	border-bottom: 3px solid rgb(41, 171, 226) !important;
+	color: black;
+}
+.content-cmt, .icon > i {
+	background-color: rgb(247, 247, 247);
+	border-radius: 10px;
+}
+.info-pro:hover {
+	background-color: rgb(247, 247, 247);
+}
+/*product start*/
+.my-card-product1 {
+	border: 0px !important;
+}
+.my-card-product1:hover {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.my-card-product {
+	border: 0px !important;
+}
+.my-card-product  .my-img-product:hover {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.name-price .name {
+	color: grey;
+}
+.name-price .name:hover {
+	color: rgb(41, 171, 226);
+}
+.name-price .price-by-dolar {
+	font-size: 150%;
+	font-weight: bold;
+}
+.type-pro {
+	cursor: pointer;
+}
+.type-pro:hover {
+	color: rgb(41, 171, 226) !important;
+}
+.btn-view-buy a {
+	border-radius: 0px !important;
+	font-size: 90%;
+}
+.btn-view-buy .first:hover {
+	background-color: transparent;
+	color: black;
+	border-color: black;
+}
+.btn-view-buy .second {
+	background-color: rgb(41, 171, 226);
+	color: white;
+}
+.btn-view-buy .second:hover {
+	background-color: rgb(53, 53, 74);
+}
+.trending a {
+	border-radius: 5px;
+}
+
+.trending a:hover {
+
+}
+/*product end*/
+
+/*end shop item*/
+
+/*star right bar*/
+.list-group .our-ser {
+	color: grey;
+	width: 100% !important;
+	height: 100% !important;
+	padding: .75rem 1.5rem !important;
+}
+.list-group .our-ser:hover {
+	color: white;
+	background-color: rgb(41, 171, 226); 
+}
+.border-break {
+	height: 1px;
+	background-color: rgb(41, 171, 226);
+	position: relative;
+}
+.border-break::before {
+	content: '';
+	width: 7px;
+	height: 7px;
+	position: absolute;
+	background-color: rgb(41, 171, 226);
+	top: -3px;
+	border-radius: 50%;
+}
+.border-break::after {
+	content: '';
+	width: 7px;
+	height: 7px;
+	position: absolute;
+	background-color: rgb(41, 171, 226);
+	right: 0px;
+	top: -3px;
+	border-radius: 50%;
+}
+.my-cate {
+	padding-left: 0px !important;
+	color: rgb(41, 171, 226);
+}
+.my-cate:hover {
+	color: black !important;
+}
+.btn-contact {
+	background-color: rgb(41, 171, 226);
+	color: white;
+	/*width: 30%;*/
+	border-radius: inherit;
+	font-size: 90%;
+}
+.btn-contact:hover {
+	color: #fff;
+	background-color: rgb(53, 53, 74);
+}
+.contact-with-us {
+	background-color: rgb(247, 247, 247);
+}
+.manufacturer >.list-group-item {
+	border: 0px !important;
+	font-size: 90% !important;
+} 
+/*end right bar*/
+
+/*start footer*/
+.footer {
+	background-color: rgb(53, 53, 74);
+}
+.list-link {
+	list-style: none;
+	padding-left: 0;
+}
+.list-link li a {
+	color: white;
+	text-decoration: none;
+}
+
+.list-link li a:hover {
+	color: rgb(41, 171, 226);
+}
+
+.top-footer {
+	border-bottom: 3px solid rgb(41, 171, 226);
+}
+
+.list-contact > a {
+	color: gray;
+}
+.list-contact > a:hover {
+	color: rgb(41, 171, 226);
+}
+@media (max-width: 767.98px) {
+	.footer  div{
+		text-align: center !important;
+	}
+}
+/*end footer
